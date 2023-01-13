@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/sorting">
+        <item
+            android:id="@+id/sort_a_z"
+            android:title="@string/sort_a_z" />
+        <item
+            android:id="@+id/sort_price_asc"
+            android:title="@string/sort_price_ascending" />
+        <item
+            android:id="@+id/sort_price_desc"
+            android:title="@string/sort_price_descending" />
+    </group>
+
+    <group android:id="@+id/filter">
+        <item
+            android:id="@+id/filter_all"
+            android:title="@string/filter_all" />
+        <item
+            android:id="@+id/filter_classic"
+            android:title="@string/filter_classic" />
+        <item
+            android:id="@+id/filter_bass"
+            android:title="@string/filter_bass" />
+        <item
+            android:id="@+id/filter_electric"
+            android:title="@string/filter_electric" />
+        <item
+            android:id="@+id/filter_electroacoustic"
+            android:title="@string/filter_electroacoustic" />
+        <item
+            android:id="@+id/filter_accessory"
+            android:title="@string/filter_accessory" />
+        <item
+            android:id="@+id/filter_cases"
+            android:title="@string/filter_cases" />
+    </group>
+</menu>

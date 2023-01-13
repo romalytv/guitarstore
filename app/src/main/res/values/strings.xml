@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Guitar Store</string>
+    <string name="sort_a_z">Sort: A-Z</string>
+    <string name="sort_price_ascending">Sort: Price ascending</string>
+    <string name="sort_price_descending">Sort: Price descending</string>
+    <string name="filter_classic">Filter: Classic</string>
+    <string name="filter_electroacoustic">Filter: Electro-Accoustic</string>
+    <string name="filter_electric">Filter: Electric</string>
+    <string name="filter_bass">Filter: Bass</string>
+    <string name="filter_all">Filter: All</string>
+    <string name="filter_accessory">Filter: Accessory</string>
+    <string name="filter_cases">Food: Cases</string>
+</resources>
