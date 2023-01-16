@@ -1,15 +1,12 @@
 package com.guitarstore.menu.ui.theme
 
-import androidx.compose.material.Typography
-import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
+import com.guitarstore.menu.R
 
-val Typography = Typography(
-    body1 = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+val fontFamily = FontFamily(
+    Font(R.font.sofia_sans_reg,
+        FontWeight.Normal,
     )
 )

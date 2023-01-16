@@ -6,7 +6,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.GridCells
 import androidx.compose.foundation.lazy.LazyVerticalGrid
 import androidx.compose.foundation.lazy.items
@@ -16,9 +15,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.guitarstore.menu.products.ProductItem
-import com.guitarstore.menu.products.Products
+import androidx.compose.ui.unit.sp
+import com.guitarstore.menu.ui.theme.Purple600
+import com.guitarstore.menu.ui.theme.fontFamily
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -33,7 +34,7 @@ fun ProductsGrid(products: Products, startProductActivity: (ProductItem) -> Unit
             items = products.items,
             itemContent = { productItem: ProductItem ->
                 Column(
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Image(
@@ -44,8 +45,12 @@ fun ProductsGrid(products: Products, startProductActivity: (ProductItem) -> Unit
                            startProductActivity.invoke(productItem)
                         }
                     )
-                    Text(text = productItem.title!!)
-
+                    Text(text = productItem.title!!,
+                        color = Purple600,
+                        fontSize = 14.sp,
+                        fontFamily = fontFamily,
+                        textAlign = TextAlign.Center
+                    )
                 }
             }
         )

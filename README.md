@@ -11,12 +11,12 @@ With system of cathegories, which placed in upper right corner, you can easily s
 
 Just like that:
 
-![Category Toolbar](app/src/main/res/drawable/GuitarToolbar.png)
+![Category Toolbar](app/src/main/res/drawable/guitar_toolbar.png)
 
 Also if you want to see price of guitar you like, just click on it`s image! Here some screenshots to see working side of app:
 
-![](app/src/main/res/drawable/GuitarScr1.png)
-![](app/src/main/res/drawable/GuitarScr2.png)
+![](app/src/main/res/drawable/guitar_scr1.png)
+![](app/src/main/res/drawable/guitar_scr2.png)
 
 # Download
 
